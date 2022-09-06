@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:height="400dp"
+        android:autoLink="web"
+        android:drawableBottom="@drawable/icon"
+        android:drawablePadding="3dp"
+        android:drawableTint="#32de84"
+        android:drawableTintMode="add"
+        android:ellipsize="end"
+        android:enabled="true"
+        android:firstBaselineToTopHeight="10dp"
+        android:gravity="center"
+        android:hint="Hint"
+        android:justificationMode="inter_word"
+        android:letterSpacing="0.1"
+        android:lineHeight="20dp"
+        android:lines="2"
+        android:linksClickable="true"
+        android:maxLength="30"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="5"
+        android:text="Click the link www.google.com"
+        android:textColor="#2196F3"
+        android:textColorHint="@color/black"
+        android:textColorLink="#ff00ff"
+        android:textFontWeight="500"
+        android:textIsSelectable="true"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:typeface="sans" />
+
+
+    <!-- <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_name" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /> -->
+    <!-- Include other widget or layout tags here. These are considered
+            "child views" or "children" of the linear layout -->
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <View
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:allowClickWhenDisabled="true"
+        android:alpha="0.3"
+        android:background="#000000"
+        android:clickable="true"
+        android:contentDescription="hell"
+        android:fitsSystemWindows="true"
+        android:focusable="true"
+        android:hapticFeedbackEnabled="true"
+        android:isScrollContainer="true"
+        android:keepScreenOn="true"
+        android:longClickable="true"
+        android:onClick="onViewClicked"
+        android:padding="100sp"
+        android:rotation="45"
+        android:soundEffectsEnabled="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="100dp"
+        android:rotation="45"
+        android:text="Hello World!"
+        android:transformPivotX="100dp"
+        android:transformPivotY="100dp"
+        android:translationX="100dp"
+        android:translationY="100dp"
+        android:translationZ="100dp" />
+</LinearLayout>
